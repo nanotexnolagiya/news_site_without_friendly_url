@@ -1,0 +1,139 @@
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+ul:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ul > li{
+	float: left;
+}
+a{
+	color: #26a69a;
+}
+img{
+	width: 100%;
+}
+nav{
+	background-color: #26a69a;
+}
+table{
+    border: 1px solid #e0e0e0;
+}
+.add{
+	margin: .5rem 0 1rem 0;
+}
+form#catEdit, form#postEdit{
+	margin: 1.5rem 0 1rem 0;
+}
+.preloader-wrapper{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.no-padding{
+	padding: 0px;
+}
+.no-margin{
+	margin: 0px;
+}
+.header-top-menu ul{
+	margin-top: 1rem;
+}
+.header-top-menu ul li{
+	margin-right: 1rem;
+}
+.search-wrapper{
+	width: 70%;
+}
+.logo h1{
+	font-size: 3rem;
+	margin: 1.5rem 0 1rem 0;
+}
+.header-menu > ul > li{
+	margin-right: 2rem;
+}
+.post-title{
+	line-height: 70%;
+}
+.post-title a{
+	font-size: 1.5rem;
+}
+.slider-posts > ul > li.active > .card{
+	background-color: #26a69a; 
+}
+.slider-posts > ul > li.active > .card .card-action{
+	border-top: 1px solid #fff;
+}
+.slider-posts > ul > li.active > .card .card-action a{
+	color: #fff!important;
+}
+.slider-posts > ul > li.active a{
+	color: #fff;
+}
+.slider-posts > ul > li, .category-posts > ul > li, .posts-widget > ul > li{
+	float: none;
+}
+.footer-menu ul li{
+	margin-right: 1rem;
+}
+.copyright, .created-by{
+	margin: 1.5rem 0 0.2rem 0;
+}
+.card.horizontal .card-image {
+    max-width: 40%;
+}
+.card:hover{
+	-webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+}
+.card .card-content{
+	padding: 15px 10px;
+}
+.card .card-action{
+	padding: 7px 10px;
+}
+.card.sticky-action .card-content{
+	padding: 15px 15px;
+}
+.card.sticky-action .card-action{
+	padding: 7px 15px;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating){
+	font-size: 12px;
+	margin-right: 10px;
+}
+.card .card-content .card-title{
+	line-height: 20px;
+	font-size: 14px;
+}
+/* Admin style */
+nav .brand-logo{
+	padding-left: 1rem;
+}
+textarea.materialize-textarea#content{
+	min-height: 15rem;
+}
+#ajax-result{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 99999;
+    font-size: 2rem;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+}
+#ajax-result.success{
+    background-color: #81c784;
+}
+#ajax-result.error{
+	background-color: #e57373;
+}
+.login{
+	width: 500px;
+	height: 500px;
+	margin: 100px auto 0 auto;
+}
