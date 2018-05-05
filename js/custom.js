@@ -69,7 +69,7 @@ $(document).ready(function() {
 
             type: 'POST',
 
-            url: '/admin/libraries/ajax.php',
+            url: '/admin/ajax.php',
 
             data: data,
 
@@ -114,7 +114,7 @@ $(document).ready(function() {
 
             type: 'POST',
 
-            url: '/admin/libraries/ajax.php',
+            url: '/admin/ajax.php',
 
             data: data,
 
@@ -156,7 +156,7 @@ $(document).ready(function() {
 
             type: 'POST',
 
-            url: '/admin/libraries/ajax.php',
+            url: '/admin/ajax.php',
 
             data: data,
 
@@ -202,7 +202,7 @@ $(document).ready(function() {
 
             type: 'POST',
 
-            url: '/admin/libraries/ajax.php',
+            url: '/admin/ajax.php',
 
             data: data,
 
@@ -244,7 +244,7 @@ $(document).ready(function() {
 
             type: 'POST',
 
-            url: '/admin/libraries/ajax.php',
+            url: '/admin/ajax.php',
 
             data: data,
 
@@ -286,7 +286,7 @@ $(document).ready(function() {
 
             type: 'POST',
 
-            url: '/admin/libraries/ajax.php',
+            url: '/admin/ajax.php',
 
             data: data,
 
