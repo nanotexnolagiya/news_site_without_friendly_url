@@ -1,5 +1,5 @@
 <?php 
-require_once('functions.php');
+require_once('libraries/functions.php');
 $error = json_encode(array(
 	'result' => 'false',
 	'text' => 'Error'
